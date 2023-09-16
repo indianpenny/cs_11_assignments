@@ -68,7 +68,7 @@ The script will calculate and display the minimum time required to complete all 
 
 Feel free to explore and use this code to help Harry Water, Ronaldo, Her-my-oh-knee, and their friends optimize their Potions homework. 
 
-**Dictionaries_Assignment6.py**
+# **Dictionaries_Assignment6.py**
 This is a SCRABBLE game, each letter of the alphabet is assigned a specific point value. This program allows you to calculate the score of a word based on the sum of the point values of its individual letters. Additionally, you can find the highest-scoring word from a list of words.
 
 The program consists of two main functions:
