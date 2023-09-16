@@ -17,23 +17,24 @@ In case of a tie between the two non-forward positions, randomly choose the dire
 Feel free to explore this code to understand how it calculates and visualizes a path based on elevation changes and how it represents this path on the map of Colorado. You can also modify it for different map data and algorithms.
 
 
-# **PlottingDiffTypesOfMathFunctions.py** Plotting Functions is a Python code is designed to plot four different functions, each representing a relationship between two variables, on a 2x2 grid of graphs. The code calculates and generates data points for the following functions:
+# **PlottingDiffTypesOfMathFunctions.py** 
+This python code contains multiple plotting methods designed to plot four different types of math functions, each representing a relationship between two variables, on a 2x2 grid of graphs. The code calculates and generates data points for the following functions:
 1. Payment vs. Amount Owed: This function calculates the total payment amount, including a 15% tip, based on the amount owed. It generates values for payments on amounts ranging from $20 to $100 in $5 increments.
 2. Population vs. Time: This function calculates the population of Surrey, BC t years from now, assuming an initial population (P0) of 550,000 and a growth rate (r) of 9% (0.09). It generates values for the population from t = 0 to 20 years, using 2-year increments.
 3. Current vs. Resistance: This function calculates the current (I) for a constant voltage (V) of 120 V, given varying resistance (R) values. It generates values for resistance from 100 Ω to 1000 Ω at intervals of 100 Ω.
 4. Distance vs. Time: This function calculates the distance traveled by a ball thrown upward with an initial upward vertical velocity (v0) of 15 m/s and an acceleration (a) of -9.8 m/s^2. It generates values for distance from t = 0 to 10 seconds in 1-second increments.
 
-The code then plots each of these functions on a 2x2 grid of graphs, with each graph representing one of the functions. The graphs are saved as an image file named "plot.png."
-This code is a useful example of how to generate data points for various mathematical functions and create a multi-graph visual representation of those functions. It can be customized to explore other mathematical relationships and plotting requirements. The resulting graph to visualize the relationships between the variables described by these functions.
+The graphs are saved as an image file named "plot.png." This code is a useful example of how to generate data points for various mathematical functions and create a multi-graph visual representation of those functions. It can be customized to explore other mathematical relationships and plotting requirements. The resulting graph to visualize the relationships between the variables described by these functions.
 
 
-# **LinearVsBinarySearchAnalysis.py** CS Search Algorithms Analysis is a Python program that creates two plots to compare the number of trials needed for linear search and binary search for different list lengths. It performs 1000 trials, each with a different list length, and records the number of attempts required to find a target number using both search methods. The code then plots this data on two separate graphs.
-# Linear Search Function:
+# **LinearVsBinarySearchAnalysis.py** 
+This python code is for analysing search algorithms - linear and binary. This creates two plots to compare the number of trials needed for different list lengths. It performs 1000 trials, each with a different list length, and records the number of attempts required to find a target number using both search methods. The code then plots this data on two separate graphs.
+1. Linear Search Function:
 The linear search function iterates through the list until it finds the target number. It keeps track of the number of attempts and appends this count to the count_l list.
-# Binary Search Function:
+2. Binary Search Function:
 The binary search function performs a binary search on the sorted list to find the target number. It also keeps track of the number of attempts and appends this count to the count_b list.
 
-# Experimental Data:
+Experimental Data:
 The code runs a loop from 1 to 1000 trials, with each trial involving the following steps:
 Generate a list of numbers from 1 to n in order.
 Generate a random number from 1 to n as the target.
