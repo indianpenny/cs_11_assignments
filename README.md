@@ -68,4 +68,21 @@ The script will calculate and display the minimum time required to complete all 
 
 Feel free to explore and use this code to help Harry Water, Ronaldo, Her-my-oh-knee, and their friends optimize their Potions homework. 
 
+**Dictionaries_Assignment6.py**
+This is a SCRABBLE game, each letter of the alphabet is assigned a specific point value. This program allows you to calculate the score of a word based on the sum of the point values of its individual letters. Additionally, you can find the highest-scoring word from a list of words.
 
+The program consists of two main functions:
+1. word_value(word): This function takes a word as a parameter and returns the calculated value of the word by adding up the values of its letters. The values of each letter are predefined in a dictionary.
+2. best_word(words): This function takes a list of words as a parameter and uses the word_value function to determine which word has the highest score. It returns the word with the highest score.
+
+The values assigned to each letter are as follows: 
+dict_letters = {
+    "A": 1, "B": 3, "C": 3, "D": 2, "E": 1, "F": 4,
+    "G": 2, "H": 4, "I": 1, "J": 8, "K": 5, "L": 1,
+    "M": 3, "N": 1, "O": 1, "P": 3, "Q": 10, "R": 1,
+    "S": 1, "T": 1, "U": 1, "V": 4, "W": 4, "X": 8,
+    "Y": 4, "Z": 10
+}
+Note: Make sure to input words in all capital letters.
+
+Feel free to use this program to calculate the Scrabble score of words and find the highest-scoring word in a list!
