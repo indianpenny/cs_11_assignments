@@ -3,7 +3,7 @@
 # **GUISnowman.py** 
 This is a Python program that creates a simple graphical user interface (GUI) using the SimpleGUI library. The GUI draws a picture of Frosty's long-lost cousin, a winter-themed character. The code demonstrates how to use various drawing commands to create shapes such as circles, squares, triangles, and polygons. It also incorporates different colors and coordinates to compose the character's features. The resulting image is displayed in a frame with interative elements. Feel free to explore and modify this code to create your own custom GUI drawings or learn more about GUI development in Python. 
 
-# **MountainElevationPlotting.py** 
+# **MountainPaths.py** 
 Mountain Paths is a Python code designed to calculate a "greedy lowest-elevation-change walk" through a 2D grid of topographic data, simulating a path from one side of a map to the other. The objective is to find the route with the least change in elevation at each step.
 The code includes an input image for displaying a map of Colorado. It draws a path on the map image loaded, illustrating a walk across Colorado using the described greedy algorithm.
 To do that, the code utilizes the Matplotlib library for plotting and visualization. It reads topographic data from a file ("map.dat") and generates a visual representation of the calculated path on the map. The resulting image 
@@ -16,7 +16,7 @@ In case of a tie between the two non-forward positions, randomly choose the dire
   
 Feel free to explore this code to understand how it calculates and visualizes a path based on elevation changes and how it represents this path on the map of Colorado. You can also modify it for different map data and algorithms.
 
-# **PlottingDiffTypesOfMathFunctions.py** 
+# **PlottingFunctions.py** 
 This python code contains multiple plotting methods designed to plot four different types of math functions, each representing a relationship between two variables, on a 2x2 grid of graphs. The code calculates and generates data points for the following functions:
 1. Payment vs. Amount Owed: This function calculates the total payment amount, including a 15% tip, based on the amount owed. It generates values for payments on amounts ranging from $20 to $100 in $5 increments.
 2. Population vs. Time: This function calculates the population of Surrey, BC t years from now, assuming an initial population (P0) of 550,000 and a growth rate (r) of 9% (0.09). It generates values for the population from t = 0 to 20 years, using 2-year increments.
@@ -68,7 +68,7 @@ The script will calculate and display the minimum time required to complete all 
 
 Feel free to explore and use this code to help Harry Water, Ronaldo, Her-my-oh-knee, and their friends optimize their Potions homework. 
 
-# **Dictionaries_Assignment6.py**
+# **Scrabble.py**
 This is a SCRABBLE game, each letter of the alphabet is assigned a specific point value. This program allows you to calculate the score of a word based on the sum of the point values of its individual letters. Additionally, you can find the highest-scoring word from a list of words.
 
 The program consists of two main functions:
