@@ -86,3 +86,6 @@ dict_letters = {
 Note: Make sure to input words in all capital letters.
 
 Feel free to use this program to calculate the Scrabble score of words and find the highest-scoring word in a list!
+
+# **FactorCubic.py**
+This Python code is a tool for factoring cubic polynomials. It takes user inputs for the coefficients of the cubic, quadratic, linear, and constant terms. Then, it appends both the positive and negative versions of the factors of the constant term and stores them in a list. It then goes through that list by taking the value of the item and plugs it in for x into the original polynomial, and continues this process until the polynomial yields a value of zero. It then takes the value that caused the polynomial to become zero, and identifies it as one factor of the polynomial. Finally, it uses that value to perform synthetic division and displays the factored form of the resultant polynomial. If possible, it also calculates and displays the real solutions to the cubic equation. If no real solutions exist, it informs the user accordingly.
