@@ -4,8 +4,6 @@ Created on Feb 1 15:37:20 2023
 @author: Srishti
 """
 
-#Potions Homework code by Srishti M. 
-
 n = int(input().strip())
 
 if not (1 <= n <= 100000):

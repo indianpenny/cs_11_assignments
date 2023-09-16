@@ -10,10 +10,6 @@ Created on Jan 21 14:37:20 2023
 
 #In the case of a tie with the forward position, you should always choose to go straight forward.  In the case of a tie between the two non-forward locations, you should randomly choose where to go.
 
-#Requirements:
-
-#Image showing map of Colorado 
-#A path drawn on the map showing a walk across using the greedy algorithm described above
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 import random

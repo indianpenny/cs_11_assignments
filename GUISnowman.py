@@ -8,23 +8,12 @@ Created on Oct 6 14:37:20 2022
 
 #GUI's require event handlers in code to define what should happen when a mouse click occurs in a specific region (such as the region defined by a rectangular button).
 
-#In the CodeSkulptor Docs, go to Graphics Modules, then SimpleGUI Module - Canvas to see what commands there are to draw shapes on the canvas.  
-
 #Make a program that draws a picture of a character, or a scene. 
-
-#You can use 
-
-#circles
-#squares
-#triangles
-#polygons
-#Rectangles
 #You should draw at least 10 shapes, and 3 different colors.
 
 #See the demo code below to understand how coordinates work in programming.
-
 #The purpose of this code to make a picture of Frosty's longlost cousin. 
-#Written by Srishti M.
+
 import simplegui
 
 # Handler to draw on canvas

@@ -1,7 +1,8 @@
-#In the game SCRABBLE, each of the letters in the alphabet is assigned a value. 
-#Each word would then have a value that is the sum of the values of its letters 
-#(ignoring special spaces on the board). Using the values below, create a dictionary 
-#to link letters to their values.
+"""
+Created on Feb 1 15:37:20 2023
+
+@author: Srishti
+"""
 
 #Write a function word_value that takes a word as a parameter and returns the value 
 #of the word by adding up the values of the letters using the dictionary. For example, 
@@ -14,7 +15,7 @@
 
 #This program returns the scrabble score for a word and 
 #returns the highest scoring word in a list of words. 
-#Written by Srishti M. 
+
 dict_letters = {"A": 1, "B": 3, "C": 3, "D": 2, "E": 1, "F": 4, 
               "G": 2, "H": 4, "I": 1, "J": 8, "K": 5, "L": 1, 
               "M": 3, "N": 1, "O": 1, "P": 3, "Q": 10, "R": 1, 

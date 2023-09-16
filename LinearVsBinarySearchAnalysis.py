@@ -19,7 +19,7 @@ Created on Jan 31 14:37:20 2023
 #For example, the first trial would be of length n=1. The list would be [1] and the target #would be a random number between 1 and 1 (so 1).  Each algorithm would take 1 try to find #the correct number. The second trial would be length 2 so the list would now be [1,2] and #the target will either be 1 or 2. The list and target will be sent to each search function #and they will either take 1 or 2 tries to find the target, etc.
 
 # Compaing the graphs of Linear Search (linear trend) VS Binary Search (logarithmic trend) by # Srishti M
-# Import and shorten names
+
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 import random 
